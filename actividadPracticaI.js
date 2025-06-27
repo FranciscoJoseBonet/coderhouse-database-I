@@ -1,7 +1,7 @@
 class ProductManager {
-	constructor() {
-		this.products = [];
-		this.elementsCount = 0;
+	constructor(_products, _elementsCount) {
+		this.products = _products || [];
+		this.elementsCount = _elementsCount || 0;
 	}
 
 	_isCodeRepeated(_code) {
