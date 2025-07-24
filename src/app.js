@@ -14,9 +14,9 @@ const test = async () => {
 	console.log("agregar usuario");
 	await manager.addUser({
 		nombre: "Francisco",
-		apellido: "Bonet",
+		apellido: "Boned",
 		email: "franboo@lba.com",
-		edad: 25,
+		edad: 23,
 	});
 };
 
