@@ -1,23 +1,20 @@
 {
-  "name": "base-de-datos-i",
-  "version": "1.0.0",
-  "description": "my first package",
-  "homepage": "https://github.com/FranciscoJoseBonet/coderhouse-database-I#readme",
-  "bugs": {
-    "url": "https://github.com/FranciscoJoseBonet/coderhouse-database-I/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/FranciscoJoseBonet/coderhouse-database-I.git"
-  },
-  "license": "ISC",
-  "author": "Francisco Bonet",
-  "type": "commonjs",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "fs": "^0.0.1-security"
-  }
+	"name": "base-de-datos-i",
+	"version": "1.0.0",
+	"description": "my first package",
+	"homepage": "https://github.com/FranciscoJoseBonet/coderhouse-database-I#readme",
+	"bugs": {
+		"url": "https://github.com/FranciscoJoseBonet/coderhouse-database-I/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/FranciscoJoseBonet/coderhouse-database-I.git"
+	},
+	"license": "ISC",
+	"author": "Francisco Bonet",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	}
 }
